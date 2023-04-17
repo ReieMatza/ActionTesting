@@ -1,3 +1,6 @@
+name: ORT Test action
+run-name: ORT is scanning the code
+on: [push]
 jobs:
   ort:
     runs-on: ubuntu-latest
